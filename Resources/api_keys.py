@@ -10,3 +10,5 @@ aqicn_api_key = "403ad2e9e10fed0a66e469938e9e5034ec2b99bf"
 # Global Health Observatory (GHO) by WHO Key
 gho_who_api_key = "PLACE KEY HERE"
 
+# API Ninjas API Key
+api_ninjas_key = "PRJLa7/tMTQYzzQTvkLEsw==Gm5o7uFMdcuTxeHP"
