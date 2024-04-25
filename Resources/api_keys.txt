@@ -1,0 +1,21 @@
+# This is a template header
+------------------------------------------------------------------------------------------------------
+# Before you begin working with APIs, copy this *.txt file and convert it to *.py file (the final name of the copied file should be api_keys.py)
+
+# Add all relevant API keys that you will need in the "commas" below
+
+# There is a .gitignore file associated with this repository, so any API keys that you upload here, will not be included in any push from local to public server commands
+
+========================================================================================================
+
+# OpenWeatherMap API Key
+weather_api_key = "PLACE KEY HERE"
+
+# Geoapify API Key
+geoapify_key = "PLACE KEY HERE"
+
+# World Air Quality Index (AQICN) API Key
+aqicn_api_key = "PLACE KEY HERE"
+
+# Global Health Observatory (GHO) by WHO Key
+gho_who_api_key = "PLACE KEY HERE"
