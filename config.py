@@ -1,0 +1,1 @@
+airquality_key = "f7c0e977f23a680bb23f9f3fadba37f4"
