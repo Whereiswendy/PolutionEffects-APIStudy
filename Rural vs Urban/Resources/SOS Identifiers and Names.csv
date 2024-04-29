@@ -1,8 +1,0 @@
-"SOS Identifiers and Names"
-"Identifier","Name","Definition"
-"0","Major Urban","Major Urban represents a combination of all Urban Centres with a population of 100,000 or more"
-"1","Other Urban","Other Urban represents a combination of all Urban Centres with a population between 1,000 and 99,999"
-"2","Bounded Locality","Bounded Localities represents a combination of all Bounded Localities"
-"3","Rural Balance","Rural Balance represents the Remainder of State/Territory"
-
-"Source: Australian Bureau of Statistics, Frequently Asked Questions"
