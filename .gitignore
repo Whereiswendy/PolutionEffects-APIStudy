@@ -1,3 +1,7 @@
+
+# Archived - not for uploading to repository
+Resources/Data/Archive/
+
 # .gitignore content
 api_keys.py
 
