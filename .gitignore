@@ -4,8 +4,8 @@ Resources/Data/Archive/
 
 # .gitignore content
 api_keys.py
+config2.py
 config.py
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
