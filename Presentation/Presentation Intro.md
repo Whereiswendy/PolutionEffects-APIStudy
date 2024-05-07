@@ -1,5 +1,5 @@
 ## Introduction
-Group 5's project was created by Wendy Ware, Bradley Cuthoys, Fatima Girnay, and Alvin Giang. 
+Group 5's project was created by Wendy Ware, Bradley Cuthoys, Fatema Girnay, and Alvin Giang. 
 
 Our study objective was to analyze key air pollution metrics at varying scales and over different timeframes to evaluate the impact on public health and wellbeing.
 
