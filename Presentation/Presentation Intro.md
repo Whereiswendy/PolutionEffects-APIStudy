@@ -1,7 +1,6 @@
 ## Introduction
-Group 5's project was created by Wendy Ware, Bradley Cuthoys, Fatema Girnay, and Alvin Giang. 
-
-Our study objective was to analyze key air pollution metrics at varying scales and over different timeframes to evaluate the impact on public health and wellbeing.
+Group 5's project was created by Wendy Ware, Bradley Cuthoys, Fatima Girnay, and Alvin Giang.
+In this presentation we will be ‘Clearing the Air’ and unveiling insights on pollution and its impact on health and wellbeing.
 
 Drawing data from a wide range of sources, we each chose a more specific hypothesis related to air pollution that was important and exciting to us. Our sources included everything from OpenWeatherMap Air Pollution API to the World Health Organization's Global Air Quality Database. 
 
@@ -9,4 +8,4 @@ For the duration of the project, we followed the analytical process displayed on
 
 During our presentation, you will see the symbol for the greek letter mu, followed by a slash m3. Mu,or "Micro" is a prefix in the metric system meaning 10 to the -6 power: 1 millionth of a gram. This is how the various elements of air pollutants are measured. In general, the higher the micrograms per cubic meter, the more detrimental the effects on humans will be. 
 
-Special thank you to our team captain Wendy Ware for doing a phenomenal job in organizing our team and keeping us on track to complete this project. Please enjoy the presentation.
+Special thank you to our team captain Wendy Ware for doing a phenomenal job in organizing our team and keeping us on track to complete this project. So, get your phones ready – let’s have some fun!
