@@ -8,4 +8,4 @@ For the duration of the project, we followed the analytical process displayed on
 
 During our presentation, you will see the symbol for the greek letter mu, followed by a slash m3. Mu,or "Micro" is a prefix in the metric system meaning 10 to the -6 power: 1 millionth of a gram. This is how the various elements of air pollutants are measured. In general, the higher the micrograms per cubic meter, the more detrimental the effects on humans will be. 
 
-Special thank you to our team captain Wendy Ware for doing a phenomenal job in organizing our team and keeping us on track to complete this project. So, get your phones ready – let’s have some fun!
+Special thank you to our team captain Wendy Ware for doing a phenomenal job in organizing our team and keeping us on track to complete this project.
