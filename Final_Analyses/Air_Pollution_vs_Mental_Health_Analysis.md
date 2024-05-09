@@ -14,7 +14,7 @@ This report sought to analyze air pollution data and explore any possible correl
 
 This question of correlation was tested through a quantitative method of inquiry. The air quality data was gathered from the World Health Organization's Ambient Air Quality Database, compiling annual mean concentrations of PM2.5, PM10, and NO2 for 600 settlements in over 100 countries. While some countries reported numbers as far back as 2000, most of the data collected was from the period between 2011 and 2019. The population and prevlanece of depressive disorders data was collected from the Institute for Health Metrics and Evaluation's Global Burden of Disease Study 2019. The GBD study utilized compiled data from 204 countries, territories and selected subnational locations.
 
-The analysis was performed using both descriptive and inferential statistics. Data sets collected were examined for normal distribution, and any outliers were eliminated. The final analysis was conducted with a series of 10 countries over a period of 10 years, from 2010-2019. 
+The analysis was performed using both descriptive and inferential statistics. Data sets collected were examined for normal distribution, and any outliers were eliminated. The final analysis was conducted with a series of 10 countries over a period of 10 years, from 2010-2019.
 
 ## Analysis Results
 
@@ -22,7 +22,9 @@ Data included the concentration of PM2.5, PM10, and NO2, measured in the microgr
 
 The countries with the highest concentration of air pollution were Mongolia, China and Bangladesh. The countries with the lowest concentration of air pollution were Estonia, Finland, and Iceland.
 
-As PM2.5 is considered the most dangerous particle in terms of detrimental health effects, this element was focused on for the purposes of considering correlation between depressive disorders and air pollution. The scatter plot for the data indicated that the correlation coefficient between the elements of air pollution and depressive disorders was -0.26, meaning  there's a slight tendency for one variable to decrease when the other increases, but this relationship is not very strong. Within the dataset at hand, the results are at best inconclusive - a more detailed study of country-specific locations would be recommended.
+As PM2.5 is considered the most dangerous particle in terms of detrimental health effects, this element was focused on for the purposes of considering correlation between depressive disorders and air pollution. The scatter plot for the data indicated that the correlation coefficient between the elements of air pollution and depressive disorders was -0.26. This suggests that higher pollution levels may be linked to fewer reported cases, possibly due to underdiagnosis in more polluted areas. This finding tracks logically,
+when considering what we know about the world: often, the highest polluted areas with the highest population
+density have the least reliable and consistent access to a comprenhensive healthcare system.
 
 ## Limiatations
 
@@ -38,12 +40,9 @@ In terms of the Global Burden of Disease study, the subnational locations with a
 
 1. World Health Organization. WHO Air Quality Database (Update 2022).  
 
-   https://www.who.int/data/gho/data/themes/air-pollution/who-air-quality-database
+   <https://www.who.int/data/gho/data/themes/air-pollution/who-air-quality-database>
 
 2. Global Burden of Disease Collaborative Network. Global Burden of Disease Study 2019 (GBD 2019) Population Estimates
    1950-2019. Seattle, United States of America: Institute for Health Metrics and Evaluation (IHME), 2020.
 
-   https://vizhub.healthdata.org/gbd-results/
-
-
-
+   <https://vizhub.healthdata.org/gbd-results/>
