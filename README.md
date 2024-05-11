@@ -1,146 +1,95 @@
-# Project_1
+# Project 1: Clearing the Air
 Group 5 - Alvin, Fatema, Bradley and Wendy
 
 ## Introduction
-For Project 1, you will work with your group to find and analyze a dataset of your choice. You can focus your efforts within a specific industry, as detailed in the examples below.
+This project, "Clearing the Air," aims to investigate the relationships between air pollutants and various health and environmental factors. The project focuses on four main hypotheses:
 
-## Industries and Applications
+1. Relationship between Population and Air Pollution
+2. Relationship between Seasonal Variations and Air Quality Index
+3. Investigating the Relation between Air Pollutants and Respiratory Deaths
+4. Investigating the Relation between Air Pollutants and Mental Health
 
-### Finance
-Exploratory data analysis is commonly used in the finance industry by professionals such as investment bankers, private equity analysts, and real estate professionals. Key applications include:
+By analyzing these relationships, we aim to gain insights into the impact of air quality on respiratory health, mental health, and overall well-being.
 
-- Identifying deals
-- Analyzing private equity markets
-- Researching arbitrage opportunities
-- Evaluating liquidity
-- Keeping up to date with finance and refinance trends
+## Hypotheses
 
-#### Project Examples
-- **Equity Trading:** Analyze a year’s worth of trading data for major cell phone providers using the [Nasdaq Data API](https://data.nasdaq.com/tools/api) to recommend investment strategies.
-- **New-Car Loan Analysis:** Use data from the [Federal Reserve Economic Data (FRED)](https://fred.stlouisfed.org/series/DTCTLVENANQ) to explore trends in car financing and their implications on the time value of money.
+1. **Relationship between Population and Air Pollution**:
+   - This hypothesis examines the relationship between population density and air pollution levels to identify potential patterns and trends in urban areas.
 
-### Healthcare
-Exploratory data analysis supports healthcare professionals in:
+2. **Relationship between Seasonal Variations and Air Quality Index**:
+   - This hypothesis focuses on analyzing seasonal variations in air quality index values to determine how air pollution levels fluctuate throughout the year.
 
-- Predicting and diagnosing illnesses
-- Improving patient safety
-- Reducing time to diagnosis
-- Increasing understanding of disease risks
-- Developing stronger prevention strategies
+3. **Investigating the Relation between Air Pollutants and Respiratory Deaths**:
+   - This hypothesis aims to analyze the correlation between different air pollutants and respiratory-related deaths to understand the potential health risks associated with poor air quality.
 
-#### Project Examples
-- **Mental Health in Tech:** [Examine survey data](https://www.kaggle.com/datasets/osmi/mental-health-in-tech-survey) to explore the correlation between desk jobs in tech and mental health issues.
-- **Personal Fitness Analyst:** Use data from the [Samsung Health application](https://www.kaggle.com/datasets/aroojanwarkhan/fitness-data-trends) to analyze trends in personal fitness and activity levels.
+4. **Investigating the Relation between Air Pollutants and Mental Health**:
+   - This hypothesis explores the potential link between air pollutants and mental health issues, investigating how air quality may impact psychological well-being.
 
-### Custom Applications
-Any industry can benefit from exploratory data analysis, including natural sciences, marketing, information security, and business intelligence.
+## Methodolody 
+### Data Collection
+The project utilizes data from various sources, including but not limited to:
 
-#### Project Examples
-- **Private Investigator:** Analyze [crime data](https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i) and [other](https://www.nydailynews.com/new-york/nyc-crime/daily-news-analysis-reveals-crime-rankings-city-subway-system-article-1.1836918) to uncover patterns and suggest improvements in police patrolling strategies.
-- **Uber Rides and Weather:** Investigate how weather conditions affect [Uber ride](https://www.kaggle.com/datasets/fivethirtyeight/uber-pickups-in-new-york-city) frequencies to inform surge-pricing strategies.
+    - OpenWeatherMap API
 
-## Team Collaboration
-- **Communication:** Establish a Slack channel and share contact information.
-- **Project Management:** Use [GitHub Projects](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/managing-project-boards) to track tasks and milestones.
-- **Regular Updates:** Ensure regular communication and support among team members.
+    - [Kaggle](https://www.kaggle.com/)
 
-## Project Requirements
+    - Australian Bureau of Statistics
 
-### Analysis
-- **Visualizations:** Create 6–8 visualizations of data with clear labeling and detailed explanations.
-- **Analysis and Conclusion:** Provide a professional-level summary of findings supported by statistical analysis.
+    - WHO Global Health Observatory
 
-### Presentation
-- **Slide Deck:** Prepare slides that are clean, professional, and maintain audience interest.
-- **Group Presentation:** All members must participate in the final presentation, demonstrating thorough preparation and relevance to the project material.
+    - Citify
 
-### Evaluation
-Projects will be graded based on the completeness and quality of analysis, presentation, and documentation, with the following grading scale:
-- **A (+/-):** 90+
-- **B (+/-):** 80–89
-- **C (+/-):** 70–79
-- **D (+/-):** 60–69
-- **F (+/-):** < 60
+    - Geoapify
 
-# Project Guidelines
+    - World Air Quality Index API
 
-The following project guidelines focus on teamwork, your project proposal, data sources, and data cleanup and analysis.
-
-## Collaborating with Your Team
-
-Remember that these projects are a group effort. The experience of close collaboration will create better project outcomes and help you in your future careers. Specifically, you’ll learn collaborative workflows that will enable you to approach and solve complex problems. Working in groups allows you to work smart and dream big. Take advantage!
-
-## Project Proposal
-
-Before you start writing any code, your group should outline the scope and purpose of your project. This will help provide direction and safeguard against scope creep (the tendency for projects to become more complex after work begins).
-
-The proposal is essentially a brief summary of your interests and intent. Be sure to include the following details:
-
-- The kind of data you’d like to work with and the field you’re interested in (finance, healthcare surveys, etc.)
-- The questions you’ll ask of the data
-- Possible source for the data
-
-### Example Proposal
-
-The aim of our project is to uncover patterns in credit card fraud. We’ll examine relationships between transaction types and location, purchase prices and times of day, purchase trends over the course of a year, and other related relationships derived from the data.
+    - Ninja API
 
 
-## Finding Data
-Once your group has written a proposal, it’s time to start searching for data. We recommend the following curated sources of high-quality data:
-
-- [data.world](https://www.data.world/)
-
-- [Kaggle](https://www.kaggle.com/)
-
-- [Australian Bureau of Statistics](https://explore.data.abs.gov.au/)
-
-- [Data.gov.au](https://data.gov.au/)
-
-- [Data.gov](https://www.data.gov/)
-
-- [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)
-
-- [Public-APIs](https://github.com/n0shake/Public-APIs)
-
-- [Awesome API](https://github.com/Kikobeats/awesome-api)
-
-- [Medium API List](https://benjamin-libor.medium.com/a-curated-collection-of-over-150-apis-to-build-great-products-fdcfa0f361bc)
+### Data Pre-processing
+The collected data underwent pre-processing to ensure consistency and suitability for analysis. This involved steps such as data cleaning to remove missing or erroneous entries, standardization of data formats, and alignment of data across years and countries. 
 
 
-⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺  
- **IMPORTANT**   
-⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺
+### Correlation Analysis
+The quantitative analysis involved the use of inferential statistics, specifically correlation analysis, to identify the relation between air pollution levels and various health and environmental factors. Pearson correlation coefficients were then calculated to quantify the strength and direction of the linear relationship between those variables.
+Additionally, descriptive statistics, specifically T-test were utilized to compare air quality levels between urban and rural regions in Australia. Beside that, Anova-test also were used to anazlyse the difference between the means of air pollution levels across four seasons.
 
+### Visualization
+Scatter plots were generated to visually represent the relationship between air pollutants and various health and environmental factors. Separate plots were created for each pollutants showing how they were influnce by population size or seasonal variations. Linear regression lines were fitted to the scatter plots to illustrate the trend between environmental and health factor, and air quality index.
 
-Whenever you use a dataset or create a new dataset based on other sources (such as existing datasets or information scraped from websites), make sure to use the following guidelines:
+### Data Filtering
+To ensure the robustness of the analysis, data filtering was applied to remove potential outliers or data points that could skew the results. Entries with excessively high air pollutant concentrations or unusually low or high respiratory health issues rates were excluded from the analysis.
 
-- **Check for copyright protections**, and make sure that the way you plan to use this dataset is within the bounds of fair use.
-  
-- **Document how you intend to use this dataset** now and in the future. Find any licenses or terms of use associated with the dataset, and review them to confirm that your intended use is in compliance.
-  
-- **Investigate how the dataset was collected**. Identify any indicators that the data was obtained from a source that the compilers were not authorised to access.
+### Analysis Outcomes
+#### Enviromental factors
+The analysis reveals that the correlation between monthly air quality parameters (CO, O3, NO2, SO2, PM2.5, and PM10) and the population density fall within the range of -0.3 to 0.3, indicating a weak linear relationship between the population density and the air pollution levels. This suggests that changess in population density are not strongly associated with changes in the air quality index.
 
-You’ll likely have to adjust your project plan as you explore the available data. That’s okay! This is all part of the process. Just make sure that everyone in the group is aligned on the project’s goals as you make changes.
+Regarding to Urban and Rural comparision, the analysis reveals that the P-values between 5 over 6 key pollutants are less than 0.05, which indicates that there is a significant difference between the monthly air quality parameters in urban and rural areas. Therefore, the hypothesis was supported and confirmed.
 
-Make sure that your datasets are not too large for your personal computer. Big datasets are difficult to manage locally, so consider using data subsets or different datasets altogether.
+#### Health/Wellbeing factors
 
-## Data Cleanup and Analysis
+Data included the concentration of PM2.5, PM10, and NO2, measured in the micrograms (one-millionth of a gram) per cubic meter. The skewness of that data was as follows: PM2.5 = 1.23, PM10 = 0.91, and NO2 = 0.67. The data for prevalence of despressive mental disorders per country per year was measured as the number of cases reported in the location's population, and percent prevalence was calculated. The skewness was as follows: Number of Cases: 1.76, and Percent Prevalence: -0.34.
 
-Now that you’ve picked your data, it’s time to tackle development and analysis. This is where the fun starts!
+The countries with the highest concentration of air pollution were Mongolia, China and Bangladesh. The countries with the lowest concentration of air pollution were Estonia, Finland, and Iceland.
 
-The analysis process can be broken into two broad phases: 
-1. **Exploration and Cleanup**
-2. **Analysis**
+As PM2.5 is considered the most dangerous particle in terms of detrimental health effects, this element was focused on for the purposes of considering correlation between depressive disorders and air pollution. The scatter plot for the data indicated that the correlation coefficient between the elements of air pollution and depressive disorders was -0.26. This suggests that higher pollution levels may be linked to fewer reported cases, possibly due to underdiagnosis in more polluted areas. This finding tracks logically, when considering what we know about the world: often, the highest polluted areas with the highest population density have the least reliable and consistent access to a comprenhensive healthcare system.
 
-As you’ve learned, you’ll need to explore, clean, and reformat your data before you can begin answering your research questions. We recommend keeping track of these exploration and cleanup steps in a dedicated Jupyter notebook to keep you organized and make it easier to present your work later.
+The correlation analysis revealed consistent positive correlations between air pollutant concentrations (NOx, SO2, CO, NH3) and respiratory mortality rates (lower respiratory infections and chronic respiratory diseases) across multiple years. Higher pollutant concentrations were associated with increased respiratory mortality rates, highlighting the detrimental effects of air pollution on respiratory health. These findings underscore the importance of implementing effective pollution control measures and public health interventions to mitigate the adverse impact of air pollution on respiratory diseases
 
-After you’ve cleaned your data and are ready to start crunching numbers, you should track your work in a Jupyter notebook dedicated specifically to analysis. We recommend focusing your analysis on multiple techniques, such as aggregation, correlation, comparison, summary statistics, sentiment analysis, and time-series analysis. Don’t forget to include plots during both the exploration and analysis phases. Creating plots along the way can reveal insights and interesting trends in the data that you might not notice if you wait until you’re preparing for your presentation. Presentation requirements will be further explained in the next module.
+### Limiatations
+#### Data Comparability 
+The WHO data was of a limited comparability between countries due to the omission of some data. This was cited as being due to "language issues or limited accessibility". This translated into a challenge in finding a time period where an adequate number of countries reported on all air pollutant metrics for a number of years.
 
-## Presentation Day
+#### Sample/Socioeconomic Bias
+In terms of the Global Burden of Disease study, the subnational locations with available data for query were largely very developed countries, indicating that there may be a sample bias. Also, the study did have sociodemographic index groupings, but did not provide detailed information about which country belonged to which index group. This made it impossible to acount for the socioeconomic element bias if one was present.
 
-It’s crucial that you find time to rehearse before presentation day.
+#### Limited temporal scope
+A one-year timeframe may not capture long-term trends, resulted in certain trends or patterns that occur over longer periods maybe missed.
 
-On the day of your presentation, each member of your group is required to submit the URL of your GitHub repository for grading.
+#### Limited spatial scope 
+Focusing solely on data collected in Australia may limnit the generalizability of the findings to other regions or countries. The specific characteristics of Australia may not be representative of global trends. Australia's unique characteristics, including its low population density, stringent environmental regulations, and geographic location, contribute to its notably superior air quality compared to many other countries. Therefore, using Australia as the sample country may introduce sample bias for this study.
 
-### NOTE
-Projects are requirements for graduation. While you are allowed to miss up to two Challenge assignments and still earn your certificate, projects cannot be skipped.
+### References
+1. Australian Bureau of Statistics (2021) Regional Population. Available at https://www.abs.gov.au/statistics/people/population/regional-population/latest-release
+2. World Health Organization. WHO Air Quality Database (Update 2022). Available at https://www.who.int/data/gho/data/themes/air-pollution/who-air-quality-database
+3. Global Burden of Disease Collaborative Network. Global Burden of Disease Study 2019 (GBD 2019) Population Estimates 1950-2019. Seattle, United States of America: Institute for Health Metrics and Evaluation (IHME), 2020. Available at https://vizhub.healthdata.org/gbd-results/
